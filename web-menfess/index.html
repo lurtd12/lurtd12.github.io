@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menfess X9</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">
+      <img src="faris.png" alt="Logo">
+      <span class="didi">Menfess X9</span>
+    </div>
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Web Menfess</h1>
+    <p>Kirimi pesan anonim di sini!</p>
+
+    <form id="menfess-form">
+      <textarea name="message" id="message" rows="5" placeholder="Tulis pesanmu di sini..." required></textarea>
+      <button type="submit">Kirim Menfess</button>
+    </form>
+
+    <div id="messages">
+      <h2>Pesan Terbaru</h2>
+      <div id="message-list" class="message-grid">
+        <!-- Kotak pesan akan ditampilkan dalam kolom di sini -->
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2025 Menfess X9. All Rights Reserved.</p>
+    <div class="social-links">
+      <a href="#">Instagram</a> | 
+      <a href="#">Twitter</a> | 
+      <a href="#">Facebook</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
